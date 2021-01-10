@@ -1,0 +1,23 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b8eefd;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  max-height: 100%;
+  margin: 5px;
+  padding: 0;
+}
+
+@media screen and (orientation: landscape) and (max-width: 767px) {
+  canvas {
+    width: 100vw;
+    height: auto;
+  }
+}
